@@ -77,11 +77,7 @@ Requires `HandBrakeCLI` and `ffprobe`.
       @quality = nil
       @bframe_refs = true
       @audio_mode = :aac
-      @audio_selections = [{
-        :track => 1,
-        :language => nil,
-        :title => nil
-      }]
+      @audio_selections = []
       @ac3_surround = false
       @aac_encoder = 'av_aac'
       @burn_subtitle = :auto
